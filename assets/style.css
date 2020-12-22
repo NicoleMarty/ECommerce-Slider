@@ -1,0 +1,49 @@
+#model-one {
+    position: absolute;
+    top:20%;
+    left:1%
+}
+#model-two {
+    position: absolute;
+    top: 20%;
+    left: 8%;
+}
+#model-three {
+    position: absolute;
+    top: 19%;
+    left: 16.75%;
+}
+#model-four {
+    position: absolute;
+    top: 19.75%;
+    left: 22.75%;
+}
+#model-five {
+    position: absolute;
+    top: 17.5%;
+    left: 29.5%;
+}
+#model-six {
+    position: absolute;
+    top: 20.5%;
+    left: 36.5%;
+    z-index: -1;
+}
+#model-seven {
+    position: absolute;
+    top: 19%;
+    left: 42.75%;
+    z-index: -2;
+}
+#model-eight {
+    position: absolute;
+    top: 22%;
+    left: 51.25%;
+    z-index: -3;
+}
+#model-nine {
+    position: absolute;
+    top: 18.85%;
+    left: 58.85%;
+    z-index: -4;
+}
