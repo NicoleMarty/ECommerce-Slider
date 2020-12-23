@@ -1,52 +1,97 @@
-#models {
-    align-content: center;
-}
-#model-one {
+
+#modelOne {
     position: absolute;
     top:20%;
     left:12.5%
 }
-#model-two {
+#modelTwo {
     position: absolute;
     top: 20%;
     left: 19.5%;
 }
-#model-three {
+#modelThree {
     position: absolute;
     top: 19%;
     left: 28.25%;
 }
-#model-four {
+#modelFour {
     position: absolute;
     top: 19.75%;
     left: 34.25%;
 }
-#model-five {
+#modelFive {
     position: absolute;
     top: 17.5%;
     left: 41%;
 }
-#model-six {
+#modelSix {
     position: absolute;
     top: 20.5%;
     left: 48.25%;
     z-index: -1;
 }
-#model-seven {
+#modelSeven {
     position: absolute;
     top: 19%;
     left: 54.25%;
     z-index: -2;
 }
-#model-eight {
+#modelEight {
     position: absolute;
     top: 22%;
     left: 62.5%;
     z-index: -3;
 }
-#model-nine {
+#modelNine {
     position: absolute;
     top: 18.85%;
     left: 69.85%;
     z-index: -4;
+}
+
+/* Click modelFive */
+.animatedFive {
+    transform: translate(-45%);
+    transition-property: transform;
+    transition-duration: 1s;
+}
+.animatedFiveFour {
+    transform: translate(-145%);
+    transition-property: transform;
+    transition-duration: 1s;
+}
+.animatedFiveThree {
+    transform: translate(-245%);
+    transition-property: transform;
+    transition-duration: 1s;
+}
+.animatedFiveTwo {
+    transform: translate(-345%);
+    transition-property: transform;
+    transition-duration: 1s;
+}
+.animatedFiveOne {
+    transform: translate(-445%);
+    transition-property: transform;
+    transition-duration: 1s;
+}
+.animatedFiveSix {
+    transform: translate(145%);
+    transition-property: transform;
+    transition-duration: 1s;
+}
+.animatedFiveSeven {
+    transform: translate(245%);
+    transition-property: transform;
+    transition-duration: 1s;
+}
+.animatedFiveEight {
+    transform: translate(345%);
+    transition-property: transform;
+    transition-duration: 1s;
+}
+.animatedFiveNine {
+    transform: translate(445%);
+    transition-property: transform;
+    transition-duration: 1s;
 }
